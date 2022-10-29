@@ -40,3 +40,42 @@ a {
     display: flex;
     align-items: center;
 }
+.avatar_wrapper {
+    display: flex;
+    height: 400px;
+    align-items: flex-end;
+}
+.name, .surname {
+    position: absolute;
+    width: 400px;
+    background: #2c2a2ab3;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+}
+.name h1 {
+    padding-right: 5px;
+}
+.surname {
+    width: 795px;
+    text-align: left;
+    padding-left: 5px;
+}
+.avatarka_img {
+    height: 400px;
+}
+.rightside {
+    display: flex;
+    flex-direction: column;
+}
+.line_rightside {
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+h3 {
+    border-bottom: 3px solid #9d9d9d;
+}
+.others_wrapper {
+    padding: 20px 40px;
+}
